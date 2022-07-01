@@ -1,0 +1,77 @@
+*body{
+    box-sizing:border-box;
+}
+div{
+    text-align: center;
+    font-size: 30px;
+    padding-left:50px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    display:inline-block;
+    width: 151px;
+    height: 100px;
+    padding-right: 50px;
+    padding: 50px;
+    border: 1px solid gainsboro;
+}
+.box-one{
+    margin: 100px;
+    background-color: greenyellow;
+    position: relative;
+
+     
+
+
+}
+.box-one:hover{
+    background-color: rgb(233, 15, 15);
+    transition: 3s;
+}
+.box-two{
+    position:relative;
+    background-color: blueviolet;
+    left:150px;
+
+
+}
+.box-two:hover{
+    background-color: blue;
+    transition: 3s;
+}
+.box-three{
+     background-color: lawngreen;
+     position: relative;
+     right: 360px;
+     top: 238px;
+}
+.box-three:hover{
+    background-color: darkslategray;
+    transition: 2s;
+
+}
+.box-four{
+
+    background-color:rgb(41, 5, 5);
+    position: relative ;
+    right: 865px;
+    top: 445px;
+
+
+}
+.box-four:hover{
+    background-color: red;
+    transition: 4s;
+}
+.box-five{
+
+    background-color: palevioletred;
+    position: relative;
+    top:100px;
+    left: 622px;
+
+
+}
+.box-five:hover{
+    background-color: lawngreen;
+    transition: 3s;
+}
